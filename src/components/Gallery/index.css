@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+}
+
+.bg-container {
+  min-height: 100vh;
+  padding: 25px;
+}
+
+.image-ele {
+  height: 250px;
+  width: 350px;
+  border-radius: 20px;
+}
+
+.ul-container {
+  flex-wrap: wrap;
+  width: 300px;
+  padding-left: 0px;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+@media screen and (min-width: 576px) {
+  .ul-container {
+    width: 100%;
+  }
+  .image-ele {
+    height: 70%;
+    width: 70%;
+  }
+}

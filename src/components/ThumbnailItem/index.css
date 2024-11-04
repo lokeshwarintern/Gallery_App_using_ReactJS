@@ -1,0 +1,12 @@
+.btn-ele {
+  background-color: transparent;
+  border-width: 0px;
+}
+
+.img-ele {
+  opacity: 0.5;
+}
+
+.is-active-img {
+  opacity: 1;
+}
